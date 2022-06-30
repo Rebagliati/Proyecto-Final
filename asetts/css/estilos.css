@@ -1,0 +1,148 @@
+/* ----BODY----*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    margin: 0;
+    background-image: linear-gradient(to bottom, #007bff, #2176e8, #3070d1, #3b6bba, #4265a4, #4a588c, #4b4d76, #474260, #3d3145, #2e212c, #1c1418, #000000);
+    color: white;
+}
+
+
+
+
+/* ----HEADER----*/
+header{
+    border-bottom: 2px solid black;
+}
+
+logo {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;    
+}
+
+/* ----MAIN----*/
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 1px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+.imagen {
+    padding-left: 50px;
+    align-items: left;
+    float: left;
+}
+
+
+.text {
+    padding-top: 70px;
+    padding-right: 50px;
+    text-align: center;
+    float: right;
+}
+
+/* ----FOOTER----*/
+
+
+/* ----TOUR----*/
+
+.badbunnytour {
+    width: 700;
+    height: auto;
+    text-align: center;
+    padding: 40px;
+    
+
+}
+
+.table {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.table.table-bordered {
+    font-size: medium;
+    color: #000000;
+    
+}
+
+
+/* ----DISCOGRAFIA----*/
+.discos {
+    margin: auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 1px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 2 / 1 / 3 / 2; }
+    .div5 { grid-area: 2 / 2 / 3 / 3; }
+
+/* ----GALERIA----*/
+
+.carousel {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+}
+
+.titlegaleria {
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* ----CONTACTO----*/
+
+.contactoform {
+    background-image: url(../img/BadBunnyfondo\ \(2\).png);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+
+.textocontacto {
+    padding: 50px;
+}
+
+.form {
+    
+    justify-content: center;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80 ;
+}
+
+
+
+
+
+/* ----MEDIA----*/
+@media only screen and (min-width: 480px) {
+    .imagen {
+        width: 100%;
+    }
+    .text {
+        font-size: small;
+    }
+    
+
+}

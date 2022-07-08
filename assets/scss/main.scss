@@ -11,41 +11,11 @@ body {
 
 
 // HEADER
-header{
-    border-bottom: 2px solid black;
-}
-
-.logo2 {
-    border-radius: 50%;
-    height: 70px;
-    width: 70px;    
-}
+@import "_header.scss";
 
 // MAIN INDEX
-.parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 1px;
-    }
-    
-    .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 2 / 3; }
+@import "_index.scss";
 
-.imagen {
-    padding-left: 50px;
-    align-items: left;
-    float: left;
-}
-
-
-.text {
-    padding-top: 70px;
-    padding-right: 50px;
-    text-align: center;
-    float: right;
-}
 
 
 // VARIABLES

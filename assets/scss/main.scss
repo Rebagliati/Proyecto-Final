@@ -8,6 +8,40 @@ body {
     
 }
 
+// MAIN
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 1px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+.imagen {
+    padding-left: 50px;
+    align-items: left;
+    float: left;
+}
+
+
+.text {
+    padding-top: 70px;
+    padding-right: 50px;
+    text-align: center;
+    float: right;
+}
+
+// SECTION
+.h2_center {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
 
 
 
@@ -17,6 +51,12 @@ body {
 // MAIN INDEX
 @import "_index.scss";
 
+// MIXIN
+@import url("_mixin.scss");
+
+@import url("buttons.scss");
+
+@import url("normalize.scss");
 
 
 // VARIABLES

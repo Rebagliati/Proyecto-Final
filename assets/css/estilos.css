@@ -70,6 +70,10 @@ footer {
     background-color: #3AB4F2;
 }
 
+.spotify:hover {
+    color: lime;
+
+}
 
 
 
@@ -118,7 +122,7 @@ footer {
 
 /* ----DISCOGRAFIA----*/
 .textodiscos {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: 'Uchen', serif;
     margin-left: auto;
     padding-left: 30px;
     padding-top: 30px;
@@ -157,7 +161,7 @@ footer {
 }
 
 .titlegaleria {
-    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-family: 'Uchen', serif;
     padding-top: 30px;
     text-align: center;
 }
@@ -177,7 +181,7 @@ footer {
 .div2 { grid-area: 1 / 2 / 2 / 3; }
 
 .textocontacto {
-    font-family: Comic Sans MS, Comic Sans, cursive;;
+    font-family: 'Uchen', serif;
     padding: 50px;
     color: white;
 }
